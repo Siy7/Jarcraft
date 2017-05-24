@@ -6,6 +6,10 @@ public class Player {
 	private int currentHealth;
 	private double attackSpeed;
 	private double rangedAttackSpeed;
+	
+	public Player() {
+		
+	}
 
 	public String getName() {
 		return name;
